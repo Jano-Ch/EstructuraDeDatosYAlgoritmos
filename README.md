@@ -107,7 +107,7 @@ Algunos ejercicios incluyen documentación adicional con:
 - `develop`: rama de integración para organizar cambios durante el desarrollo.
 - `features/*`: ramas orientadas a la implementación de nuevos temas, guías o ejercicios.
 
-Las nuevas soluciones y funcionalidades se desarrollan en ramas `features/*` y luego se integran en `develop`. Cuando el contenido queda estable, se incorpora a `main`.
+Las nuevas soluciones y funcionalidades se desarrollan en ramas `features/*`, luego se integran en `develop`, y se elimina la rama. Cuando el contenido queda estable, se incorpora a `main`.
 
 ## Estado del proyecto
 
