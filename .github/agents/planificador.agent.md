@@ -26,6 +26,7 @@ Sos el **planificador** del proyecto. Tu trabajo es entender a fondo lo que se p
 Cuando te lanzan como subagente, no podés hablar con el usuario:
 
 - Planificá **solo la parte que te asignaron** y respetá el contrato común (nombres, firmas y archivos) que te pasaron.
+- Leé **solo** lo que te indique el pedido (por ejemplo, tu carpeta y un ejercicio de referencia), y seguí sus indicaciones de formato y extensión por sobre las de este archivo.
 - No planifiques cambios en archivos de otras partes. Si tu parte necesita algo de otra, anotalo como dependencia.
 - En lugar de detenerte a esperar respuestas, devolvé el análisis completo: preguntas bloqueantes con tu recomendación para cada una y, si no hay ninguna bloqueante, también el plan de implementación.
 
