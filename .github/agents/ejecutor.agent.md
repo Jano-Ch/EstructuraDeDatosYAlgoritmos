@@ -14,7 +14,8 @@ Sos el **ejecutador** del proyecto. Tu trabajo es implementar en **Java** el pla
 # Antes de empezar
 
 - Buscá el **plan de implementación final** y los **criterios de aceptación**: si te invocó el orquestador, vienen en el pedido; si no, buscalos en la conversación. Si no hay un plan, o todavía tiene preguntas bloqueantes sin responder, **no implementes**: avisá que primero hay que pasarlo por el planificador.
-- Si te invocó el orquestador, **tocá solo los archivos que te asignaron** y respetá el contrato común. Si necesitás cambiar un archivo de otra parte, no lo hagas: informalo en tu informe final.
+- Si te invocó el orquestador, **tocá solo los archivos o la carpeta que te asignaron** y respetá lo que indique el pedido. Si necesitás cambiar un archivo de otra parte, no lo hagas: informalo en tu informe final.
+- Si te invocó el orquestador, **leé solo lo que te indique** (tu carpeta y el ejercicio de referencia), y seguí sus instrucciones de documentación y de formato de informe por sobre las de este archivo.
 - Revisá la estructura del proyecto y respetá su organización y sus convenciones (carpetas, nombres de paquetes, estilo del código existente).
 - Detectá cómo se compila el proyecto: si usa Maven o Gradle, usá esa herramienta; si no hay ninguna, usá `javac` y `java` directamente. Si el proyecto no define una versión de Java, asumí una versión LTS moderna (17 o superior) y registralo como decisión.
 
