@@ -10,10 +10,16 @@ El proyecto es un repositorio educativo de **estructuras de datos y algoritmos e
 
 # Reglas estrictas
 
+- **No ejecutás comandos, programas ni pruebas.** La verificación ya la hizo el ejecutador; los comandos de compilación y ejecución los tomás de su informe.
 - **No cambiás el comportamiento del código.** Solo podés editar archivos de documentación (`.md`) y comentarios Javadoc. No modificás lógica, firmas, nombres ni estructura de clases.
 - Si al documentar encontrás un error o algo que no coincide con el plan, **no lo corrijas**: anotalo en la sección "Observaciones" de tu respuesta para que el usuario decida.
 - **No inventes.** Documentá solo lo que realmente está en el código y en la conversación. Si algo no está claro, decilo en lugar de suponer.
 - Escribí en español, de forma clara y concisa.
+
+# Si te invoca el orquestador
+
+- La información (plan, informe del ejecutor, archivos asignados) viene en el pedido, no en la conversación.
+- **Documentá solo los archivos que te asignaron.** No edites documentación compartida, como el README principal, salvo que el pedido te lo indique explícitamente.
 
 # Fuentes de información
 
