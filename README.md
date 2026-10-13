@@ -1,42 +1,118 @@
 # Estructura de Datos y Algoritmos
 
-Repositorio destinado al estudio y la implementación de estructuras de datos y algoritmos mediante la resolución de las guías de ejercicios prácticos de la asignatura **Estructuras de Datos y Algoritmos**, correspondiente a la carrera de Ingeniería Informática del Instituto Universitario Aeronáutico.
+Repositorio para el estudio, análisis e implementación de estructuras de datos y algoritmos en Java, basado en guías prácticas y ejercicios resueltos de la asignatura de Estructuras de Datos y Algoritmos.
 
 ## Lenguaje de programación
 
-Las implementaciones se desarrollan en **Java**.
+Las implementaciones y ejemplos del repositorio están desarrollados en Java.
 
-## Contenidos
+## Temas incluidos
 
-Actualmente, el repositorio contempla los siguientes temas:
+El repositorio actual contiene ejercicios y soluciones organizados por bloques temáticos:
 
 - Análisis de algoritmos.
 - Recursividad.
 - Algoritmos de ordenamiento.
 - Pilas y colas implementadas con arreglos.
-- Listas enlazadas simples.
 - Pilas y colas implementadas con listas enlazadas.
+- Listas enlazadas simples.
 
 ## Organización del repositorio
 
-Cada tema se encuentra organizado en una carpeta independiente. Dentro de cada carpeta se incluyen los ejercicios resueltos correspondientes a las guías prácticas, con una carpeta propia para cada ejercicio.
+Cada tema se encuentra en una carpeta independiente. Dentro de cada una hay varios ejercicios, normalmente con clases Java y, en muchos casos, un README propio que explica el objetivo, la estrategia y la ejecución del ejercicio.
 
-La estructura general es la siguiente:
+La estructura general del proyecto es la siguiente:
+
+```text
+.
+├── .github/
+│   └── agents/
+├── Analisis_de_algoritmos/
+│   ├── Ejercicio_1/
+│   ├── Ejercicio_2/
+│   ├── ...
+│   └── Ejercicio_10/
+├── Algoritmos_de_ordenamiento/
+│   ├── Ejercicio01_BurbujaPasoAPaso/
+│   ├── Ejercicio02_ComparacionBurbujaSeleccion/
+│   ├── ...
+│   └── Ejercicio10_RankingPuntajes/
+├── Listas_enlazadas_simples/
+│   ├── Ejercicio1/
+│   ├── Ejercicio2/
+│   ├── ...
+│   └── Ejercicio_9/
+├── Pilas_y_colas_con_arreglos/
+│   ├── Ejercicio1/
+│   ├── Ejercicio2/
+│   ├── ...
+│   └── Ejercicio_10/
+├── Pilas_y_colas_con_listas_enlazadas/
+│   ├── Ejercicio_1/
+│   ├── Ejercicio_2/
+│   ├── ...
+│   └── Ejercicio_9/
+├── Recursividad/
+│   ├── Ejercicio_1/
+│   ├── Ejercicio_2/
+│   ├── ...
+│   └── Ejercicio_10/
+├── README.md
+├── .gitignore
+└── ...
+```
+
+## Uso del repositorio
+
+Cada ejercicio puede ejecutarse de forma independiente desde su carpeta correspondiente. En la mayoría de los casos se compila con `javac` y se ejecuta con `java`:
+
+```bash
+cd <carpeta_del_ejercicio>
+javac NombreArchivo.java
+java NombreArchivo
+```
+
+Por ejemplo:
+
+```bash
+cd Analisis_de_algoritmos/Ejercicio_1
+javac MinimoVector.java
+java MinimoVector
+```
+
+## Estructura de cada ejercicio
+
+Los ejercicios suelen seguir una organización similar:
 
 ```text
 Tema/
 └── Ejercicio/
-    └── Código fuente en Java
+    ├── Archivo.java
+    ├── README.md (según el ejercicio)
+    └── salida o ejemplos de ejecución
 ```
 
-## Estrategia de ramas
+Algunos ejercicios incluyen documentación adicional con:
 
-- `main`: contiene la versión estable del repositorio.
-- `develop`: rama destinada a integrar y organizar los cambios durante el desarrollo.
-- `features/*`: ramas destinadas a la implementación de nuevos temas, guías o ejercicios.
+- objetivo del problema,
+- estructura de datos utilizada,
+- algoritmo propuesto,
+- complejidad,
+- casos borde,
+- validaciones y ejemplos de ejecución.
 
-Las nuevas funcionalidades y resoluciones se desarrollan en ramas `features/*`, luego se integran en `develop`. Las versiones consideradas estables se incorporan finalmente en `main`.
+## Ramas
+
+- `main`: rama principal y estable del repositorio.
+- `develop`: rama de integración para organizar cambios durante el desarrollo.
+- `features/*`: ramas orientadas a la implementación de nuevos temas, guías o ejercicios.
+
+Las nuevas soluciones y funcionalidades se desarrollan en ramas `features/*` y luego se integran en `develop`. Cuando el contenido queda estable, se incorpora a `main`.
 
 ## Estado del proyecto
 
 En desarrollo.
+
+## Nota
+
+El repositorio está pensado como una colección de ejercicios prácticos, por lo que la documentación y el código están distribuidos en distintos directorios según el tema. La revisión de cada README asociado ayuda a comprender el enunciado, la estrategia elegida y la validación del ejercicio.
